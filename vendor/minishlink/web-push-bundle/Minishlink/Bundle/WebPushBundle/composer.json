@@ -1,0 +1,37 @@
+{
+  "name": "minishlink/web-push-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony Bundle around the WebPush library",
+  "keywords": [
+    "push",
+    "notifications",
+    "web",
+    "WebPush"
+  ],
+  "homepage": "https://github.com/minishlink/web-push-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Louis Lagrange",
+      "email": "lagrange.louis@gmail.com",
+      "homepage": "https://github.com/Minishlink"
+    }
+  ],
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "minishlink/web-push": "^6.0"
+  },
+  "require-dev": {
+    "symfony/framework-bundle": "^4.2|^5.0",
+    "phpunit/phpunit": "^7.1",
+    "symfony/phpunit-bridge": "^5.0",
+    "matthiasnoback/symfony-dependency-injection-test": "^3.0"
+  },
+  "target-dir": "Minishlink/Bundle/WebPushBundle",
+  "autoload": {
+    "psr-0": {
+      "Minishlink\\Bundle\\WebPushBundle": "",
+      "Tests\\Minishlink\\WebPushBundle": "Tests"
+    }
+  }
+}
